@@ -1,41 +1,27 @@
-/*import "bootstrap";
-import "./style.css";
+//Elimino los comentarios iniciales que sirven para inportar bootstrap y styles, ya que no forma parte del ejercicio.
 
+//Cambio los valores let en const, porque no van a cambiar su valor.
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+const pronoun = ['the', 'our'];
+const adj = ['great', 'big'];
+const noun = ['jogger', 'racoon']
+const exten = ['.com', '.es', '.br.com',]
 
-window.onload = function() {
-  //write your code here
-
-  console.log("Hello Rigo from the console!");
-};*/
-
-let pronoun = ['the', 'our'];
-let adj = ['great', 'big'];
-let noun = ['jogger', 'racoon']
-let exten = ['.com', '.es', '.br.com',]
-
-/*for (let i = 0; i < pronoun.length; i++) {
-  for (let j = 0; j < adj.length; j++) {
-    for (let h = 0; h < noun.length; h++) {
-      for (let f = 0; f < exten.length; f++) {
-          console.log(pronoun[i] + adj[j] + noun[h] + exten[f])
-
-    }
-  }
-}
-}*/
-
-//hack
+// Me doy cuenta que el código comentado es el funcional y el que no lo estaba comentado no funciona correctamente.
+// Sería útil que indicara una funcion que englobe todos los loops que realiza, a aparte que posteriormente
+// será de utilidad para establecer la relación a HTML.
 
 for (let i = 0; i < pronoun.length; i++) {
   for (let j = 0; j < adj.length; j++) {
     for (let h = 0; h < noun.length; h++) {
-      
-          console.log(pronoun[i] + adj[j] + noun[h].slice(0,noun[h].length-2)+'.'+noun[h].slice(noun[h].length-2,noun[h].length))
-
-    
+      for (let f = 0; f < exten.length; f++) {
+        console.log(pronoun[i] + adj[j] + noun[h] + exten[f])
+      }
+    }
   }
 }
-}
+
+// Elimino código que estaba sin comentar pero que no funcionaba aproximadamente en la líneas de la 23 a la 34.
+// No funciona porque solo utiliza 3 arrays y faltaría el array que contiene la extensión de dominio.
+// Por un momento me confundió porque la extensión de dominio se genera a traves de la variable noun cortando parte
+// del noun y agregando un ".", supongo que estaba experimentando.
