@@ -7,7 +7,7 @@ const adj = ['great', 'big'];
 const noun = ['jogger', 'racoon']
 const exten = ['.com', '.es', '.br.com',]
 
-// Me doy cuenta que el código comentado es el funcional y el que no lo estaba comentado no funciona correctamente.
+// Me doy cuenta que el código comentado es el funcional y el que no estaba comentado no funciona correctamente.
 // Sería útil que indicara una funcion que englobe todos los loops que realiza, a aparte que posteriormente
 // será de utilidad para establecer la relación a HTML.
 
@@ -25,3 +25,5 @@ for (let i = 0; i < pronoun.length; i++) {
 // No funciona porque solo utiliza 3 arrays y faltaría el array que contiene la extensión de dominio.
 // Por un momento me confundió porque la extensión de dominio se genera a traves de la variable noun cortando parte
 // del noun y agregando un ".", supongo que estaba experimentando.
+
+//En lineas generales el código funciona y solo lo he dejado más estético y he dado sugerencias
