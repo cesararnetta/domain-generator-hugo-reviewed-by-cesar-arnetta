@@ -5,7 +5,8 @@
 const pronoun = ['the', 'our'];
 const adj = ['great', 'big'];
 const noun = ['jogger', 'racoon']
-const exten = ['.com', '.es', '.br.com',]
+const exten = ['.com', '.es', '.br'] // anteriormente en el array estaba la extensión '.br.com'
+// lo modifico para que quede el '.br', porque ya tiene '.com
 
 // Me doy cuenta que el código comentado es el funcional y el que no estaba comentado no funciona correctamente.
 // Sería útil que indicara una funcion que englobe todos los loops que realiza, a aparte que posteriormente
