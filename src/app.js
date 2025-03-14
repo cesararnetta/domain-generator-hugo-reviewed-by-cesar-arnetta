@@ -4,7 +4,7 @@
 
 const pronoun = ['the', 'our'];
 const adj = ['great', 'big'];
-const noun = ['jogger', 'racoon']; // añado ";" en arrays
+const noun = ['jogger', 'racoon']; // añado ";" al final de los arrays en arrays
 const exten = ['.com', '.es', '.br']; // anteriormente en el array estaba la extensión '.br.com'
 // lo modifico para que quede el '.br', porque ya tiene '.com
 
